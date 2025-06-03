@@ -1,3 +1,5 @@
+![[logo]](https://github.com/NoahBRostant/Basic-VS-Launcher/blob/main/assets/logo_rasterized_128.png?raw=true)
+
 # Basic-VS-Launcher
 
 *A sleek, cross-platform launcher & instance manager for
