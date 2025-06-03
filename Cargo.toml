@@ -1,0 +1,20 @@
+[package]
+name = "vs_launcher"
+version = "0.5.0"
+edition = "2021"
+
+[package.metadata.appimage]
+desktop_file = "extra/vs_launcher.desktop"
+icon = "extra/icon.png"
+
+[dependencies]
+eframe     = "0.27"
+reqwest     = { version = "0.12", features = ["blocking", "json"] }
+dirs       = "5.0"
+regex      = "1"
+crossbeam-channel = "0.5"
+compress-tools = "0.15"
+serde_json = "1.0"
+serde = "1.0"
+open = "5.0"   # cross-platform opener
+semver = "1"
